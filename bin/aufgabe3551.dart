@@ -1,5 +1,6 @@
 void main() 
 {
+  //-------------------------------------------------------------------------
   // Aufgabe 1
   for(int i=1;i<=100;i++){
     switch(i) {
@@ -11,8 +12,8 @@ void main()
         print("Große Zahl: $i");
     }
   }
-
-  // bonus
+  //-------------------------------------------------------------------------
+  // Bonus 1
   String word = "otto";  
   bool isPalindrom = true;
 
@@ -34,5 +35,21 @@ void main()
   {
     print('$word ist kein Palindrom');
   }
+
+  //-------------------------------------------------------------------------
+  // Bonus 2
+  int number = 5;  
+  List<int> outputString = []; 
+
+  for(int i=1;i<=number;i++)
+  {
+    outputString.add(i);
+  }
+
+  for(int i=number-1;i>=1;i--)
+  {
+    outputString.add(i);
+  }
+  print(outputString);
 }
 
