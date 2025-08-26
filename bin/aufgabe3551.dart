@@ -25,8 +25,7 @@ void main()
         isPalindrom = false;
       }
   }
-
-  // Hier deine for-Schleife:
+  
   if (isPalindrom) 
   {
     print('$word ist ein Palindrom');
